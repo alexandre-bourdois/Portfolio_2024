@@ -1,6 +1,10 @@
 import type { Config } from "tailwindcss";
+import defaultTheme from 'tailwindcss/defaultTheme'
 
 export default {
+	extend:{
+		sans:['JetBrains Mono', ...defaultTheme.fontFamily.sans]
+	},
     darkMode: ["class"],
     content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -10,6 +14,9 @@ export default {
   theme: {
   	extend: {
   		colors: {
+			bodyColor: '#1c1c22',
+			lightSky: '#99680d',
+			hoverColor: '#FFA800',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {

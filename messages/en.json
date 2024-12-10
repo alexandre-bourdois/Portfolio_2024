@@ -1,0 +1,36 @@
+{
+  "LocaleSwitcher": {
+    "label": "Langue",
+    "locale": "{locale, select, fr {Français} en {English} other {Unknown}}"
+  },
+  "Home": {
+    "Welcome": "Bienvenue"
+  },
+  "About": {
+    "title": "À propos",
+    "description": "Découvrez notre projet."
+  },
+  "Embedded": {
+    "title": "Systèmes Embarqués",
+    "description": "Solutions innovantes dans le domaine des systèmes embarqués."
+  },
+  "WebProject": {
+    "title": "Projet Web",
+    "description": "Créer des solutions modernes et responsives."
+  },
+  "Contact": {
+    "title": "Contact",
+    "email": "Email",
+    "phone": "Téléphone"
+  },
+  "navbar": {
+    "home": "Home",
+    "resume": "Resume",
+    "work": "Work",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact",
+    "hire": "Hire me"
+}
+
+}
