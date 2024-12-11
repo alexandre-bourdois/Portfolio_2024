@@ -13,31 +13,34 @@ export const metadata: Metadata = {
 };
 
 const raleway = localFont({
-  src:'./fonts/Raleway.woff2',
-  variable:"--font-raleway",
+  src: './fonts/Raleway.woff2',
+  variable: "--font-raleway",
   weight: "100 900",
-})
+});
+
 export default async function RootLayout({
   children,
   params,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-  params: { locale: string };
-}>) {
-  const {locale} = await params
+  params: Promise<{ locale: string }>;
+}) {
+
+  const { locale } = await params;
+
   if (!routing.locales.includes(locale as typeof routing.locales[number])) {
     notFound();
   }
-  
-  const messages = await getMessages({locale});
+
+  const messages = await getMessages({ locale });
 
   return (
     <html lang={locale}>
       <body
-        className={`${raleway.variable}antialiased`}
+        className={`${raleway.variable} antialiased`}
       >
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <Header/>
+          <Header />
           {children}
         </NextIntlClientProvider>
       </body>
