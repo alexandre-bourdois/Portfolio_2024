@@ -19,7 +19,7 @@ function Header() {
         <Container className='flex justify-between py-5 items-center px-4 '>
             <div>
                 <Link href='/'>
-                    <h2 className='font-semibold text-md hover:text-hoverColor hoverEffect'>
+                    <h2 className='font-semibold text-xl hover:text-hoverColor hoverEffect'>
                         Portfolio
                     </h2>
                 </Link>
