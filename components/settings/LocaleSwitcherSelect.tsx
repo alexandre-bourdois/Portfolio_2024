@@ -33,7 +33,7 @@ export default function LocaleSwitcherSelect({
     <label className="relative inline-block">
       <select
         className={clsx(
-          'block w-full text-foreground border border-foreground rounded-md shadow-sm focus:outline-none focus:ring focus:ring-foreground transition duration-150 ease-in-out',
+          'block w-full text-hoverColor/50 bg-bodyColor rounded-md shadow-sm focus:outline-none transition duration-150 ease-in-out',
           isPending && 'opacity-50 cursor-not-allowed'
         )}
         defaultValue={defaultValue}

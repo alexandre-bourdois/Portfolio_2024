@@ -1,7 +1,7 @@
 {
   "LocaleSwitcher": {
     "label": "Langue",
-    "locale": "{locale, select, fr {Français} en {English} other {Unknown}}"
+    "locale": "{locale, select, fr {FR} en {EN} other {Unknown}}"
   },
   "Home": {
     "Welcome": "Bienvenue"

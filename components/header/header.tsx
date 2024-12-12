@@ -9,6 +9,7 @@ import { usePathname } from 'next/navigation';
 import Image from 'next/image';
 import NavButton from './NavButton';
 import { AnimatePresence, motion } from 'framer-motion'
+import LocaleSwitcher from '../settings/LocaleSwitcher';
 
 function Header() {
     const t = useTranslations();
@@ -43,6 +44,8 @@ function Header() {
                             ${pathname === `/${locale}${item.href}` ? "translate-x-0":"-translate-x-[105%]"}`}/>
                         </Link>
                 ))}
+                <LocaleSwitcher />
+
                 <Link href={'/resume.pdf'} target='_blank' rel='"noopener noreferrer'
                     className='text-sm bg-lightSky px-4 py-2 rounded-md border-hoverColor/10 
                         hover:border-hoverColor hover:bg-hoverColor hover:text-gray-800 hoverEffect'>
@@ -51,7 +54,9 @@ function Header() {
             </div>
 
             {/* NavBar < md */}
-            <div  className='inline-flex md:hidden relative'>
+            <div  className='inline-flex md:hidden relative gap-4'>
+                <LocaleSwitcher />
+
                 <NavButton menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
                 <AnimatePresence>
                 { menuOpen && 
