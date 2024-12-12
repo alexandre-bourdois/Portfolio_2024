@@ -1,6 +1,7 @@
 "use client"
 import React, { useEffect } from 'react'
 import { motion, useAnimation } from 'framer-motion'
+
 interface NavMenuToggleProps {
     menuOpen: boolean;
     setMenuOpen: (_:boolean) => void;
