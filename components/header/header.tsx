@@ -6,8 +6,9 @@ import Link from 'next/link'
 import { useLocale, useTranslations } from 'next-intl';
 import { navbarData } from '@/constants';
 import { usePathname } from 'next/navigation';
-import { Github, Menu } from 'lucide-react';
 import Image from 'next/image';
+import NavButton from './NavButton';
+import { AnimatePresence, motion } from 'framer-motion'
 
 function Header() {
     const t = useTranslations();
@@ -51,9 +52,18 @@ function Header() {
 
             {/* NavBar < md */}
             <div  className='inline-flex md:hidden relative'>
-                <button onClick={()=>setMenuOpen(!menuOpen)}><Menu/></button>
-                { menuOpen && <div className='absolute top-2 right-2  min-h-64 w-64 
-                    rounded-md bg-bodyColor/90 border border-b-hoverColor p-8 pb-4 z-10 flex flex-col'>
+                <NavButton menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+                <AnimatePresence>
+                { menuOpen && 
+                <motion.div 
+                    initial={{scale:0, opacity:0}}
+                    animate={{scale:1, opacity:1}}
+                    exit={{scale:0, opacity:0}}
+                    transition={{duration:0.5, type: "spring"}}
+
+                    className='absolute  right-0  min-h-64 w-64 
+                    rounded-md bg-bodyColor/90 border border-b-hoverColor p-8 pb-4 z-10 
+                    flex flex-col origin-top-right'>
                     <ul className='flex flex-col gap-2 flex-1'>
                     {navbarData.map((item) => (
                     <Link
@@ -116,9 +126,9 @@ function Header() {
                     </ul>
                     <div className="h-[1] mt-2 rounded-sm w-[72] bg-hoverColor mx-auto" />
 
-                    </div>
-
+                </motion.div>
                 }
+                </AnimatePresence>
             </div>
         </Container>
     </header>
