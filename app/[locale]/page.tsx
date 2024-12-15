@@ -1,6 +1,7 @@
 import Container from "@/components/container";
-import LocaleSwitcher from "@/components/settings/LocaleSwitcher";
 import { Button } from "@/components/ui/button";
+import Statistics from "@/components/home/statistics";
+import Photo from "@/components/home/Photo";
 
 export default function HomePage() {
   return (
@@ -16,15 +17,16 @@ export default function HomePage() {
             <p className="w-auto md:max-w-[500px] text-white/50 font-thin leading-6">I'm 23 years old french Software Engineer. 
               I'm also a versatile person, very comfortable as a Hardware Engineer. Open to work
             </p>
-            <Button className="bg-transparent rounded-full border border-lightSky/50 
+            <Button className="bg-transparent rounded-full mt-5 mb-4 border border-lightSky/50 
             text-lightSky hover:bg-hoverColor hover:text-black hoverEffect h-10">
               Download CV
             </Button>
+            <Statistics />
           </div>
         </div>
         {/* photo */}
-        <div>photo</div>
-      </Container>
+        <Photo/>
+              </Container>
     </div>
   );
 }
