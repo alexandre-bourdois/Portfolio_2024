@@ -2,9 +2,39 @@
 import React from 'react'
 import profile from '@/public/home/profile.webp'
 import Image from 'next/image'
-import { AnimatePresence, motion } from 'framer-motion'
+import { animate, AnimatePresence, motion } from 'framer-motion'
 
 const Photo = () => {
+    const circleColors = ['#FFA800', "#FFA800", "#FFA800"]
+    const circleVariants={
+        initial:{
+            strokeDasharray:"24 10 0 0",
+            rotate: 0,
+            opacity:0,
+        },
+        animate:(index:number)=>({
+            strokeDasharray: ["15 120 25 25", "16 25 92 72", "4 250 22 22"],
+            rotate: [120,360],
+            opacity:1,
+            transition:{
+                strokeDasharray:{
+                    duration: 20,
+                    repeat: Infinity,
+                    repeatType: "reverse",
+                },
+                rotate:{
+                    duration:20,
+                    repeat: Infinity,
+                    repeatType: "reverse",
+                },
+                opacity:{
+                    duration: 0.4,
+                    delay: 2+index * 0.4,
+                    ease: "easeIn"
+                },
+            },
+        })
+    }
   return (
     <div className='w-full h-full flex items-center justify-center '>
         <motion.div initial={{opacity:0}} animate={{opacity:1,
@@ -18,7 +48,14 @@ const Photo = () => {
                     quality={100} className='object-contain w-full h-full ' priority/>
                 </div>
             </motion.div>
-
+            <svg className='w-[400px] lg:w-[490px] h-[368px] lg:h-[506px]' viewBox='0 0 506 506'
+                fill='none' xmlns='http://www.w3.org/2000/svg'>
+                {circleColors.map((color,index)=>(
+                    <motion.circle key={index} cx='253' cy='253' r={240- index *15} stroke={color}
+                        strokeWidth={4} strokeLinecap='round' strokeLinejoin='round'
+                        variants={circleVariants} initial='initial' animate="animate" custom={index}/>
+                ))}
+            </svg>
         </motion.div>
     </div>
   )
