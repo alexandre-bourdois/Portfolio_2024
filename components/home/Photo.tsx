@@ -2,7 +2,7 @@
 import React from 'react'
 import profile from '@/public/home/profile.webp'
 import Image from 'next/image'
-import { animate, AnimatePresence, motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 
 const Photo = () => {
     const circleColors = ['#FFA800', '#B36500', '#804300'];
