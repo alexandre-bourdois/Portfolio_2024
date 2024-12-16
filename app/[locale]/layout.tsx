@@ -6,6 +6,8 @@ import { notFound } from "next/navigation";
 import { routing } from "@/app/i18n/routing";
 import { getMessages } from "next-intl/server";
 import Header from "@/components/header/header";
+import PageTransition from "@/components/transition/PageTransition";
+import StairTransition from "@/components/transition/StairTransition";
 
 export const metadata: Metadata = {
   title: "Portfolio | Alexandre Bourdois",
@@ -41,7 +43,10 @@ export default async function RootLayout({
       >
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
-          {children}
+          <StairTransition/>
+          <PageTransition>
+              {children}
+          </PageTransition>
         </NextIntlClientProvider>
       </body>
     </html>

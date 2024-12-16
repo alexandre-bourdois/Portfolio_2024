@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { animate, AnimatePresence, motion } from 'framer-motion'
 
 const Photo = () => {
-    const circleColors = ['#FFA800', "#FFA800", "#FFA800"]
+    const circleColors = ['#FFA800', '#B36500', '#804300'];
     const circleVariants={
         initial:{
             strokeDasharray:"24 10 0 0",
@@ -29,7 +29,7 @@ const Photo = () => {
                 },
                 opacity:{
                     duration: 0.4,
-                    delay: 2+index * 0.4,
+                    delay: 1+index * 0.4,
                     ease: "easeIn"
                 },
             },
@@ -38,9 +38,9 @@ const Photo = () => {
   return (
     <div className='w-full h-full flex items-center justify-center '>
         <motion.div initial={{opacity:0}} animate={{opacity:1,
-            transition:{delay:2,duration:0.4,ease:"easeIn"}}} className='relative'>
+            transition:{delay:1.2,duration:0.4,ease:"easeIn"}}} className='relative'>
             <motion.div  initial={{opacity:0}} animate={{opacity:1,
-            transition:{delay:2.4,duration:0.4,ease:"easeInOut"}}}
+            transition:{delay:1.2,duration:0.4,ease:"easeInOut"}}}
             className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10'>
                 <div className='w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] mix-blend-lighten
                 overflow-auto rounded-full'>

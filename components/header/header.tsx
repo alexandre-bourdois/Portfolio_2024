@@ -19,7 +19,8 @@ function Header() {
     const pathname = usePathname()
     console.log(pathname)
   return (
-    <header className='border-b border-b-hoverColor bg-bodyColor text-white/80'>
+    <header className='border-b  max-h-screen border-b-hoverColor bg-bodyColor text-white/80
+                        sticky top-0 z-50'>
         <Container className='flex justify-between py-5 items-center px-4 '>
             <div>
                 <Link href='/'>

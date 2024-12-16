@@ -6,7 +6,7 @@ import Photo from "@/components/home/Photo";
 export default function HomePage() {
   return (
     <div className="bg-bodyColor text-white/80">
-      <Container className=" px-4 py-10 grid grid-cols-1 md:grid-cols-2 gap-10">
+      <Container className=" px-5 py-5 grid grid-cols-1 md:grid-cols-2 gap-10">
         <div className="flex flex-col items-center md:items-start gap-5 md-gap-7 text-center md:text-start">
           <div>
             <h3 className="font-semibold tracking-wider mb-1">
