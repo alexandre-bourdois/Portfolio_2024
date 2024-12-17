@@ -14,6 +14,7 @@ import LocaleSwitcher from '../settings/LocaleSwitcher';
 function Header() {
     const t = useTranslations();
     const locale = useLocale();
+    const filePath = locale === 'en' ? 'resume/resume.pdf' : 'resume/cv.pdf';
 
     const [menuOpen,setMenuOpen] = useState(false);
     const pathname = usePathname()
@@ -21,10 +22,10 @@ function Header() {
   return (
     <header className='border-b  max-h-screen border-b-hoverColor bg-bodyColor text-white/80
                         sticky top-0 z-50'>
-        <Container className='flex justify-between py-5 items-center px-4 '>
+        <Container className='flex justify-between py-5 items-center px-10 '>
             <div>
                 <Link href='/'>
-                    <h2 className='font-semibold text-xl hover:text-hoverColor hoverEffect'>
+                    <h2 className='font-semibold text-2xl hover:text-hoverColor hoverEffect'>
                         Portfolio
                     </h2>
                 </Link>
@@ -47,10 +48,13 @@ function Header() {
                 ))}
                 <LocaleSwitcher />
 
-                <Link href={'/resume.pdf'} target='_blank' rel='"noopener noreferrer'
+                <Link
+                    href={filePath}
+                    target='_blank'
+                    rel='noopener noreferrer'
                     className='text-sm bg-lightSky px-4 py-2 rounded-md border-hoverColor/10 
-                        hover:border-hoverColor hover:bg-hoverColor hover:text-gray-800 hoverEffect'>
-                    { t("navbar.hire")}
+                                hover:border-hoverColor hover:bg-hoverColor hover:text-gray-800 hoverEffect'>
+                    {t("navbar.hire")}
                 </Link>
             </div>
 

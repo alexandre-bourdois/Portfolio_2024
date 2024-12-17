@@ -4,33 +4,22 @@
     "locale": "{locale, select, fr {FR} en {EN} other {Unknown}}"
   },
   "Home": {
-    "Welcome": "Bienvenue"
-  },
-  "About": {
-    "title": "À propos",
-    "description": "Découvrez notre projet."
-  },
-  "Embedded": {
-    "title": "Systèmes Embarqués",
-    "description": "Solutions innovantes dans le domaine des systèmes embarqués."
-  },
-  "WebProject": {
-    "title": "Projet Web",
-    "description": "Créer des solutions modernes et responsives."
-  },
-  "Contact": {
-    "title": "Contact",
-    "email": "Email",
-    "phone": "Téléphone"
+    "SoftwareEngineer": "Software Engineer",
+    "Hello": "Hello I'm",
+    "Name": "Alexandre BOURDOIS",
+    "DownloadCV": "Download CV",
+    "Description": " I am a software engineer specialized in embedded systems, with skills in web development and hardware engineering. Passionate, versatile, and open to new opportunities.",
+    "ExperienceYears": "Years of Experience",
+    "Commits2024": "Commits in 2024",
+    "VisitorsThisMonth": "Visitors this month on this site"
   },
   "navbar": {
     "home": "Home",
     "resume": "Resume",
-    "work": "Work",
+    "experiences": "Resume",
     "skills": "Skills",
     "projects": "Projects",
     "contact": "Contact",
     "hire": "Hire me"
-}
-
+  }
 }

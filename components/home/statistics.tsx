@@ -1,8 +1,11 @@
-"use client"
+"use client";
 
 import { useMemo } from 'react';
 import CountUp from 'react-countup';
+import { useTranslations } from 'next-intl';
+
 const Statistics = () => {
+  const t = useTranslations('Home');
   const startDate = new Date('2021-09-13');
 
   const experienceYears = useMemo(() => {
@@ -17,20 +20,17 @@ const Statistics = () => {
 
   return (
     <div className="flex flex-col items-center md:flex-row gap-2 md:gap-5">
-        <div className='flex flex-1 gap-2 md:gap-4 flex-col md:flex-row items-center justify-center
-        lg:justify-start'>
+        <div className='flex flex-1 gap-2 md:gap-4 flex-col md:flex-row items-center justify-center lg:justify-start'>
             <CountUp duration={7} className='text-4xl lg:text-6xl font-extrabold text-white ' end={experienceYears}></CountUp>
-            <p className='leading-snug text-sm'>Années d'expérience</p>
+            <p className='leading-snug text-sm'>{t('ExperienceYears')}</p>
         </div>
-        <div className='flex flex-1 gap-2 md:gap-4 flex-col md:flex-row items-center justify-center
-        lg:justify-start'>
-            <CountUp duration={7} className='text-4xl lg:text-6xl font-extrabold text-white 'end={400}></CountUp>
-            <p className='leading-snug text-sm'>Commits en 2024</p>
+        <div className='flex flex-1 gap-2 md:gap-4 flex-col md:flex-row items-center justify-center lg:justify-start'>
+            <CountUp duration={7} className='text-4xl lg:text-6xl font-extrabold text-white ' end={400}></CountUp>
+            <p className='leading-snug text-sm'>{t('Commits2024')}</p>
         </div>
-        <div className='flex flex-1 gap-2 md:gap-4 flex-col md:flex-row items-center justify-center
-        lg:justify-start'>
+        <div className='flex flex-1 gap-2 md:gap-4 flex-col md:flex-row items-center justify-center lg:justify-start'>
             <CountUp duration={7} className='text-4xl lg:text-6xl font-extrabold text-white ' end={4}></CountUp>
-            <p className='leading-snug text-sm'>Projets créés en 2024</p>
+            <p className='leading-snug text-sm'>{t('VisitorsThisMonth')}</p>
         </div>
     </div>
   );
