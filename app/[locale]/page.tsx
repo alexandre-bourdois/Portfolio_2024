@@ -5,10 +5,14 @@ import Photo from "@/components/home/Photo";
 import HomeDescription from "@/components/home/HomeDescription";
 
 // Import des traductions
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
+import Link from "next/link";
 
 export default function HomePage() {
   const t = useTranslations("Home");
+  const locale = useLocale();
+
+  const filePath = locale === 'en' ? 'resume/resume.pdf' : 'resume/cv.pdf';
 
   return (
     <div className="bg-bodyColor text-white/80">
@@ -29,12 +33,18 @@ export default function HomePage() {
                 <HomeDescription />
               </div>
             </div>
-            <Button
-              className="bg-transparent rounded-full mt-5 mb-4 border border-lightSky/50 
-            text-lightSky hover:bg-hoverColor hover:text-black hoverEffect h-10"
+            <Link
+              href={filePath}
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              {t("DownloadCV")}
-            </Button>
+              <Button
+                className="bg-transparent rounded-full mt-5 mb-4 border border-lightSky/50 
+                  text-lightSky hover:bg-hoverColor hover:text-black hoverEffect h-10"
+              >
+                {t("DownloadCV")}
+              </Button>
+            </Link>
             <Statistics />
           </div>
         </div>
