@@ -8,6 +8,7 @@ import { getMessages } from "next-intl/server";
 import Header from "@/components/header/header";
 import PageTransition from "@/components/transition/PageTransition";
 import StairTransition from "@/components/transition/StairTransition";
+import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
   title: "Portfolio | Alexandre Bourdois",
@@ -49,6 +50,7 @@ export default async function RootLayout({
               {children}
             </div>
           </PageTransition>
+          <Toaster/>
         </NextIntlClientProvider>
       </body>
     </html>
