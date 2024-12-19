@@ -56,7 +56,7 @@
         "Url":"https://www.lootus.net",
         "period": "Septembre 2021 - Novembre 2023",
         "description": "Développement d’un bootloader sur STM32 pour un écosystème de sécurité IoT. Reverse Engineering de système optique.",
-        "highlights": ["CAO", "C", "Python", "STM32", "Embarqué"]
+        "highlights": ["CAO", "C", "Python", "STM32", "Système embarqué"]
       }
     ]
   },
