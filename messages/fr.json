@@ -21,5 +21,73 @@
     "projects": "Projets",
     "contact": "Contact",
     "hire": "Me Recruter"
+  },
+  "resume": {
+  "tabMenu": {
+    "experience": "Professionel",
+    "education": "Éducation",
+    "about": "À propos de moi"
+  },
+  "experience": {
+    "title": "Expérience Professionnelle",
+    "items": [
+      {
+        "role": "Ingénieur Support Applicatif",
+        "company": "STMicroelectronics | Rennes, France",
+        "logo": "/resume_page/st.png",
+        "Url":"https://www.st.com/",
+        "period": "Décembre 2023 - Septembre 2024",
+        "description": "Développement de logiciels embarqués sur le module ST87M01 (NBIOT + GNSS). Mon rôle consistait à créer des applications clients pour démontrer le potentiel du module.",
+        "highlights": ["C", "Python", "Système embarqué", "STM32", "Travail en équipe"]
+      },
+      {
+        "role": "Stagiaire Ingénieur Hardware",
+        "company": "UTM | Johor Bahru, Malaisie",
+        "logo": "/resume_page/utm.png",
+        "Url":"https://www.utm.my/",
+        "period": "Août 2023 - Décembre 2023",
+        "description": "Conception de sondes numériques, de la CAO à l'assemblage.  Reverse Engineering d'un onduleur. Expérience multiculturelle en Malaisie.",
+        "highlights": ["CAO", "Verilog", "Système embarqué"]
+      },
+      {
+        "role": "Consultant en Cybersécurité IoT",
+        "company": "LOOTUS SECURITY | Saint Grégoire, France",
+        "logo": "/resume_page/lootus.png",
+        "Url":"https://www.lootus.net",
+        "period": "Septembre 2021 - Novembre 2023",
+        "description": "Développement d’un bootloader sur STM32 pour un écosystème de sécurité IoT. Reverse Engineering de système optique.",
+        "highlights": ["CAO", "C", "Python", "STM32", "Embarqué"]
+      }
+    ]
+  },
+  "education": {
+    "title": "Parcours Éducatif",
+    "items": [
+      {
+        "degree": "Diplôme d'ingénieur",
+        "institution": "INSA Rennes",
+        "logo": "/resume_page/insa.png",
+        "Url":"https://www.insa-rennes.fr/",
+        "period": "2021-2024",
+        "description": "Spécialisé en électronique, systèmes embarqués et télécommunications, alliant compétences techniques et managériales via un programme d'apprentissage pratique.",
+        "achievements": ["TOEIC"]
+      },
+      {
+        "degree": "DUT GEII",
+        "institution": "IUT Rennes",
+        "logo": "/resume_page/iut.png",
+        "Url":"https://iut-rennes.univ-rennes.fr/",
+        "period": "2019-2021",
+        "description": "Formation en électronique, informatique industrielle, automatisme et systèmes embarqués, orientée vers la conception et le développement de solutions innovantes.",
+        "achievements": ["Certification électrique B1V"]
+      }
+    ]
+  },
+  "about": {
+    "title": "À Propos de Moi",
+    "bio": "Développeur passionné avec plus de 3 ans d'expérience, je suis curieux des domaines de l'espace, de la technologie, de la blockchain et de la cybersécurité. J'adore voyager, notamment en Asie, et j'essaie aussi de pratiquer un peu de sport pour garder un bon équilibre.",
+    "interests": ["Espace", "Technologie", "Voyage", "Blockchain"],
+    "languages": ["Français (Langue maternelle)", "Anglais (Intermédiaire)", "Allemand (Débutant)", "Chinois (Débutant)"]
   }
+}
 }

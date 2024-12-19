@@ -39,13 +39,15 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <body
-        className={`${raleway.variable} antialiased`}
+        className={`${raleway.variable} antialiased text-white`}
       >
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
           <StairTransition/>
           <PageTransition>
+            <div className="px-10">
               {children}
+            </div>
           </PageTransition>
         </NextIntlClientProvider>
       </body>

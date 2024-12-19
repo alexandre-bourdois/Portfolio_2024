@@ -1,5 +1,5 @@
 import React from 'react'
-import { animate, motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 
 const Stairs = () => {
     const stairAnimation={
@@ -15,12 +15,12 @@ const Stairs = () => {
     };
 
     const reverseIndex= (index:number)=>{
-        const totalSteps=8;
+        const totalSteps=6;
         return totalSteps-index-1;
     }
   return (
     <>
-        {[...Array(8)].map((_,index)=>(
+        {[...Array(6)].map((_,index)=>(
             <motion.div key={index} variants={stairAnimation} initial="initial" animate="animate" exit='exit'
                 transition={{
                     duration:0.3,

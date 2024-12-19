@@ -21,5 +21,73 @@
     "projects": "Projects",
     "contact": "Contact",
     "hire": "Hire me"
+  },
+  "resume": {
+    "tabMenu": {
+      "experience": "Experience",
+      "education": "Education",
+      "about": "About me"
+    },
+    "experience": {
+      "title": "Professional Experience",
+      "items": [
+        {
+          "role": "Application Support Engineer",
+          "company": "STMicroelectronics | Rennes, France",
+          "logo": "/resume_page/st.png",
+          "Url":"https://www.st.com/",
+          "period": "December 2023 - September 2024",
+          "description": "Embedded software development on ST87M01 module (NBIOT + GNSS). My role was to create customer applications to demonstrate the module's potential.",
+          "highlights": ["C", "Python", "Embedded", "STM32", "Team"]
+        },
+        {
+          "role": "Hardware Engineer Intern",
+          "company": "UTM | Johor Bahru, Malaysia",
+          "logo": "/resume_page/utm.png",
+          "Url":"https://www.utm.my/",
+          "period": "August 2023 - December 2023",
+          "description": "Digital probe design from CAD to assembly. Reverse Engineering of a Power Inverter. Multi-cultural experience in Malaysia.",
+          "highlights": ["CAD", "Verilog", "Embedded"]
+        },
+        {
+          "role": "IoT Cybersecurity Consultant",
+          "company": "LOOTUS SECURITY | Saint Grégoire, France",
+          "logo": "/resume_page/lootus.png",
+          "Url":"https://www.lootus.net",
+          "period": "September 2021 - November 2023",
+          "description": "Development of a bootloader on STM32 for an IoT security ecosystem. Reverse engineering of optical systems.",
+          "highlights": ["CAD", "C", "Python", "STM32", "Embedded"]
+        }
+      ]
+    },
+    "education": {
+      "title": "Education Background",
+      "items": [
+        {
+          "degree": "Master of Engineering",
+          "institution": "INSA Rennes",
+          "logo": "/resume_page/insa.png",
+          "Url":"https://www.insa-rennes.fr/",
+          "period": "2021-2024",
+          "description": "Specialized in electronics, embedded systems, and telecommunications, combining technical expertise with management skills through a hands-on apprenticeship program.",
+          "achievements": ["TOEIC"]
+        },
+        {
+          "degree": "Bachelor of Engineering",
+          "institution": "IUT Rennes",
+          "logo": "/resume_page/iut.png",
+          "Url":"https://iut-rennes.univ-rennes.fr/",
+          "period": "2019-2021",
+          "description": "Education in electronics, industrial computing, automation, and embedded systems, emphasizing the design and development of innovative solutions.",
+          "achievements": ["B1V electrical certification"]
+        }
+      ]
+    },
+    "about": {
+      "title": "About Me",
+      "bio": "Passionate developer with over 3 years of experience, I’m curious about space, technology, blockchain, and cybersecurity. I love traveling, especially in Asia, and I try to stay active by practicing some sports.",
+      "interests": ["Space", "Tech", "Travel", "Blockchain"],
+      "languages": ["French (Native)", "English (Intermediate)", "German (Basic)", "Chinese (Basic)"]
+    }
   }
 }
