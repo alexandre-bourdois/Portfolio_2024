@@ -89,5 +89,38 @@
       "interests": ["Space", "Tech", "Travel", "Blockchain"],
       "languages": ["French (Native)", "English (Intermediate)", "German (Basic)", "Chinese (Basic)"]
     }
+  },
+  "contact": {
+    "header": "My Profiles and Contact",
+    "headerForm":"Contact me",
+    "description": "I am always looking for exciting projects and enriching collaborations. Whether you have a question, a proposal, or simply want to connect, feel free to reach out!",
+    "placeholders": {
+      "name": "Your name",
+      "email": "Email address",
+      "message": "Your message"
+    },
+    "button": {
+      "submit": "Send Message",
+      "loading": "Submitting message..."
+    },
+    "status": {
+      "success": "Success! Your message has been sent.",
+      "error": "Error! Unable to send your message.",
+      "errorGeneric": "Error! Something went wrong."
+    },
+    "errors": {
+      "title": "Error: Something is wrong",
+      "description": "Please input your name and email to continue."
+    },
+    "socialLinks": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "malt": "Malt",
+      "email": "Email"
+    },
+    "successMessage": {
+      "title": "Thank You!",
+      "description": "Your message has been successfully sent."
+    }
   }
 }
