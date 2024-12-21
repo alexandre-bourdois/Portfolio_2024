@@ -122,5 +122,50 @@
       "title": "Merci !",
       "description": "Votre message a été envoyé avec succès."
     }
+  },
+  "projects": {
+    "title": "Mes Projets",
+    "projects": [
+      {
+        "title": "Imoobe 🏠",
+        "date": "2024",
+        "category": "Full Stack / SaaS",
+        "description": "Un SaaS moderne pour la gestion immobilière",
+        "stack": ["Next.js", "Typescript", "TailwindCSS", "PostgreSQL", "Prisma", "Stripe"],
+        "image": "/projects/imoobe.png",
+        "url": "https://imoobe.com",
+        "githubUrl": "https://github.com/alexandre-bourdois/Imoobe"
+      },
+      {
+        "title": "ToDoChain ⛓️",
+        "date": "2024",
+        "category": "Full Stack / Web3",
+        "description": "ToDoChain est une application de liste de tâches décentralisée construite sur la blockchain Ethereum",
+        "stack": ["Next.js", "Javascript", "TailwindCSS", "Solidity", "Truffle", "React"],
+        "image": "/projects/ToDoChain.png",
+        "url": "https://todochain.alexandrebourdois.com/",
+        "githubUrl": "https://github.com/alexandre-bourdois/ToDoChain"
+      },
+      {
+        "title": "HSK AI 🧧",
+        "date": "2024",
+        "category": "Machine Learning",
+        "description": "C'est un projet d'apprentissage automatique pour identifier avec précision les caractères chinois de base.",
+        "stack": ["Python", "TensorFlow", "Tkinter"],
+        "image": "/projects/HSK_AI.png",
+        "url": false,
+        "githubUrl": "https://github.com/alexandre-bourdois/HSK_AI"
+      },
+      {
+        "title": "Portfolio 🪪",
+        "date": "2023",
+        "category": "Full Stack",
+        "description": "C'est un portfolio en ligne montrant mon profil professionnel, développé en HTML/CSS et JavaScript.",
+        "stack": ["HTML", "CSS", "Javascript"],
+        "image": "/projects/portfolio_2023.jpg",
+        "url": "https://portfolio_2023.alexandrebourdois.com/",
+        "githubUrl": "https://github.com/alexandre-bourdois/Portfolio_2023"
+      }
+    ]
   }
 }

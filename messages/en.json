@@ -122,5 +122,50 @@
       "title": "Thank You!",
       "description": "Your message has been successfully sent."
     }
+  },
+ "projects": {
+    "title": "My Projects",
+    "projects": [
+      {
+        "title": "Imoobe 🏠",
+        "date": "2024",
+        "category": "Full Stack / SaaS",
+        "description": "A modern SaaS about real Estate management",
+        "stack": ["Next.js", "Typescript", "TailwindCSS", "PostgreSQL", "Prisma", "Stripe"],
+        "image": "/projects/imoobe.png",
+        "url": "https://imoobe.com",
+        "githubUrl": "https://github.com/alexandre-bourdois/Imoobe"
+      },
+      {
+        "title": "ToDoChain ⛓️",
+        "date": "2024",
+        "category": "Full Stack / Web3",
+        "description": "ToDoChain is a decentralized to-do list application built on Ethereum blockchain",
+        "stack": ["Next.js", "Javascript", "TailwindCSS", "Solidity", "Truffle", "React"],
+        "image": "/projects/ToDoChain.png",
+        "url": "https://todochain.alexandrebourdois.com/",
+        "githubUrl": "https://github.com/alexandre-bourdois/ToDoChain"
+      },
+      {
+        "title": "HSK AI 🧧",
+        "date": "2024",
+        "category": "Machine Learning",
+        "description": "It's a machine learning project for accurate identification of basic Chinese characters.",
+        "stack": ["Python", "TensorFlow", "Tkinter"],
+        "image": "/projects/HSK_AI.png",
+        "url": false,
+        "githubUrl": "https://github.com/alexandre-bourdois/HSK_AI"
+      },
+      {
+        "title": "Portfolio 🪪",
+        "date": "2023",
+        "category": "Full Stack",
+        "description": "It's a website portfolio showing my professional profile developed in HTML/CSS and JavaScript.",
+        "stack": ["HTML", "CSS", "Javascript"],
+        "image": "/projects/portfolio_2023.jpg",
+        "url": "https://portfolio_2023.alexandrebourdois.com/",
+        "githubUrl": "https://github.com/alexandre-bourdois/Portfolio_2023"
+      }
+    ]
   }
 }
