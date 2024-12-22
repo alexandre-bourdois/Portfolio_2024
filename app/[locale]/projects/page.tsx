@@ -68,9 +68,11 @@ const ProjectsPage = () => {
               <CardContent className="p-6 pb-0 md:pb-6">
               <div className={`flex flex-col md:flex-row md:items-center group ${index % 2 === 0 ? 'md:flex-row-reverse' : ''}`}>
                     <div className='w-full flex flex-col gap-2 md:w-1/2 order-2 md:order-1 mb-0 md:mb-0 p-4'>
-                      <h2 className='text-white md:text-3xl text-2xl font-bold leading-none group-hover:text-lightSky group-hover:cursor-default group-hover:underline hoverEffect'>
-                        {project.title}
-                      </h2>
+                      <Link href={project.githubUrl} target="_blank" rel="noopener noreferrer"> 
+                          <h2 className='text-white md:text-3xl text-2xl font-bold leading-none group-hover:text-lightSky group-hover:underline hoverEffect'>
+                            {project.title}
+                          </h2>
+                      </Link>
                       <h3 className='text-muted-foreground md:text-sm text-xs font-thin leading-none  hoverEffect group-hover:cursor-default'>
                         {project.category} | {project.date}
                       </h3>
