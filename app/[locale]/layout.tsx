@@ -9,6 +9,7 @@ import Header from "@/components/header/header";
 import PageTransition from "@/components/transition/PageTransition";
 import StairTransition from "@/components/transition/StairTransition";
 import { Toaster } from "@/components/ui/toaster";
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata: Metadata = {
   title: "Portfolio | Alexandre Bourdois",
@@ -52,6 +53,7 @@ export default async function RootLayout({
           </PageTransition>
           <Toaster/>
         </NextIntlClientProvider>
+        <GoogleAnalytics gaId={process.env.GOOGLE_ANALYTICS_TOKEN as string } />
       </body>
     </html>
   );
