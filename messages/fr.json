@@ -177,87 +177,147 @@
     "software": {
       "items": [
         {
+          "name": "Développement embarqué",
+          "logo": "/skills/Software/Chip.svg",
+          "link": "https://en.wikipedia.org/wiki/Embedded_software"
+        },
+        {
           "name": "C",
           "logo": "/skills/Software/C.svg",
           "link": "https://en.wikipedia.org/wiki/C_(programming_language)"
         },
         {
-            "name": "C++",
-            "logo": "/skills/Software/Cpp.svg",
-            "link": "https://en.wikipedia.org/wiki/C%2B%2B"
+          "name": "C++",
+          "logo": "/skills/Software/Cpp.svg",
+          "link": "https://en.wikipedia.org/wiki/C%2B%2B"
         },
         {
-            "name": "Python",
-            "logo": "/skills/Software/Python.svg",
-            "link": "https://www.python.org/"
+          "name": "Python",
+          "logo": "/skills/Software/Python.svg",
+          "link": "https://www.python.org/"
         },
         {
-            "name": "CMake",
-            "logo": "/skills/Software/CMake.svg",
-            "link": "https://cmake.org/"
+          "name": "Linux",
+          "logo": "/skills/Software/Linux.svg",
+          "link": "https://www.linux.org/"
         },
         {
-            "name": "Git",
-            "logo": "/skills/Software/Git.svg",
-            "link": "https://git-scm.com/"
+          "name": "Cybersécurité",
+          "logo": "/skills/Software/Cybersecurity.svg",
+          "link": "https://en.wikipedia.org/wiki/Computer_security"
+        },
+        {
+          "name": "CMake",
+          "logo": "/skills/Software/CMake.svg",
+          "link": "https://cmake.org/"
+        },
+        {
+          "name": "Git",
+          "logo": "/skills/Software/Git.svg",
+          "link": "https://git-scm.com/"
         }
-        ]
+      ]
     },
     "hardware": {
       "items": [
         {
-          "name": "ECAD",
+          "name": "CAO électronique",
           "logo": "/skills/Hardware/Eda.svg",
           "link": "https://en.wikipedia.org/wiki/Electronic_design_automation"
-      },
-      {
+        },
+        {
+          "name": "Gestion de la mémoire",
+          "logo": "/skills/Hardware/MemoryManagement.svg",
+          "link": "https://en.wikipedia.org/wiki/Memory_management"
+        },
+        {
+          "name": "Rétro-ingénierie",
+          "logo": "/skills/Hardware/ReverseEngineering.svg",
+          "link": "https://en.wikipedia.org/wiki/Reverse_engineering#:~:text=Reverse%20engineering%20(also%20known%20as,exactly%20how%20it%20does%20so."
+        },
+        {
+          "name": "Protocoles de communication",
+          "logo": "/skills/Hardware/CommunicationProtocols.svg",
+          "link": "https://en.wikipedia.org/wiki/Communication_protocol"
+        },
+        {
+          "name": "Radiofréquence",
+          "logo": "/skills/Hardware/RadioFrequency.svg",
+          "link": "https://en.wikipedia.org/wiki/Radio_frequency"
+        },
+        {
           "name": "VHDL",
           "logo": "/skills/Hardware/Vhdl.svg",
           "link": "https://en.wikipedia.org/wiki/VHDL"
-      },
-      {
-          "name": "Memory Management",
-          "logo": "/skills/Hardware/MemoryManagement.svg",
-          "link": "https://en.wikipedia.org/wiki/Memory_management"
-      },
-      {
-          "name": "Communication Protocols",
-          "logo": "/skills/Hardware/CommunicationProtocols.svg",
-          "link": "https://en.wikipedia.org/wiki/Communication_protocol"
-      },
-      {
-          "name": "Radio Frequency",
-          "logo": "/skills/Hardware/RadioFrequency.svg",
-          "link": "https://en.wikipedia.org/wiki/Radio_frequency"
-      }
-    ]
+        }
+      ]
     },
     "web": {
       "items": [
-          {
-            "name": "HTML",
-            "logo": "/skills/Web/Html.svg",
-            "link": "https://en.wikipedia.org/wiki/HTML"
+        {
+          "name": "HTML",
+          "logo": "/skills/Web/Html.svg",
+          "link": "https://en.wikipedia.org/wiki/HTML"
         },
         {
-            "name": "CSS",
-            "logo": "/skills/Web/Css.svg",
-            "link": "https://en.wikipedia.org/wiki/CSS"
+          "name": "CSS",
+          "logo": "/skills/Web/Css.svg",
+          "link": "https://en.wikipedia.org/wiki/CSS"
         },
         {
-            "name": "JavaScript",
-            "logo": "/skills/Web/JavaScript.svg",
-            "link": "https://en.wikipedia.org/wiki/JavaScript"
+          "name": "JavaScript",
+          "logo": "/skills/Web/JavaScript.svg",
+          "link": "https://en.wikipedia.org/wiki/JavaScript"
         },
         {
-            "name": "SQL",
-            "logo": "/skills/Web/Sql.svg",
-            "link": "https://sql.sh"
+          "name": "React",
+          "logo": "/skills/Web/React.svg",
+          "link": "https://fr.react.dev/"
         },
         {
-            "name": "Git",
-            "logo": "/skills/Software/Git.svg",
-            "link": "https://git-scm.com/"
+          "name": "NextJS",
+          "logo": "/skills/Web/NextJS.svg",
+          "link": "https://nextjs.org/"
+        },
+        {
+          "name": "Tailwind CSS",
+          "logo": "/skills/Web/Tailwind.svg",
+          "link": "https://tailwindcss.com/"
+        },
+        {
+          "name": "TypeScript",
+          "logo": "/skills/Web/Typescript.svg",
+          "link": "https://www.typescriptlang.org/"
+        },
+        {
+          "name": "Solidity",
+          "logo": "/skills/Web/Solidity.svg",
+          "link": "https://soliditylang.org/"
+        },
+        {
+          "name": "Truffle",
+          "logo": "/skills/Web/Truffle.svg",
+          "link": "https://archive.trufflesuite.com/"
+        },
+        {
+          "name": "Prisma",
+          "logo": "/skills/Web/Prisma.svg",
+          "link": "https://www.prisma.io/"
+        },
+        {
+          "name": "PostgreSQL",
+          "logo": "/skills/Web/PostgreSQL.svg",
+          "link": "https://www.postgresql.org/"
+        },
+        {
+          "name": "SQL",
+          "logo": "/skills/Web/Sql.svg",
+          "link": "https://sql.sh"
+        },
+        {
+          "name": "Git",
+          "logo": "/skills/Software/Git.svg",
+          "link": "https://git-scm.com/"
         }
       ]
     }
