@@ -16,7 +16,7 @@ export default function HomePage() {
 
   return (
     <div className="bg-bodyColor text-white/80">
-      <Container className=" py-5 grid grid-cols-1 md:grid-cols-2 gap-10">
+      <Container className=" py-4 grid grid-cols-1 md:grid-cols-2 gap-10">
         <div className="flex-1 order-2 md:order-1 flex-col items-center md:items-start gap-5 text-center md:text-start">
           <div>
             <h3 className="font-semibold tracking-wider mb-1">

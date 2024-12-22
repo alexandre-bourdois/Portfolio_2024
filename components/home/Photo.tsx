@@ -42,13 +42,13 @@ const Photo = () => {
             <motion.div  initial={{opacity:0}} animate={{opacity:1,
             transition:{delay:1.2,duration:0.4,ease:"easeInOut"}}}
             className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10'>
-                <div className='w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] mix-blend-lighten
+                <div className='w-[300px] h-[300px] lg:w-[350px] lg:h-[350px] mix-blend-lighten
                 overflow-auto rounded-full'>
-                    <Image src={profile} alt="Alexandre BOURDOIS" width={400} height={400} 
+                    <Image src={profile} alt="Alexandre BOURDOIS" width={350} height={350} 
                     quality={100} className='object-contain w-full h-full ' priority/>
                 </div>
             </motion.div>
-            <svg className='w-[400px] lg:w-[490px] h-[368px] lg:h-[506px]' viewBox='0 0 506 506'
+            <svg className='w-[400px] lg:w-[490px] h-[370px] lg:h-[430px]' viewBox='0 0 506 506'
                 fill='none' xmlns='http://www.w3.org/2000/svg'>
                 {circleColors.map((color,index)=>(
                     <motion.circle key={index} cx='253' cy='253' r={240- index *15} stroke={color}
