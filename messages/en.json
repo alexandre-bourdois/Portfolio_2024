@@ -163,7 +163,7 @@
         "description": "My first online portfolio, created in 2023 with HTML, CSS, and JavaScript, marking the beginning of my web development journey.",
         "stack": ["HTML", "CSS", "Javascript"],
         "image": "/projects/portfolio_2023.jpg",
-        "url": "https://portfolio_2023.alexandrebourdois.com/",
+        "url": "https://portfolio-2023.alexandrebourdois.com/",
         "githubUrl": "https://github.com/alexandre-bourdois/Portfolio_2023"
       }
     ]
