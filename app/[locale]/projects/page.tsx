@@ -13,6 +13,7 @@ import Link from 'next/link'
 import { ArrowUpRight, Github } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { useLocale } from 'next-intl'
+import { Badge } from '@/components/ui/badge'
 
 // Define the types for the project structure
 interface Project {
@@ -75,14 +76,14 @@ const ProjectsPage = () => {
                       </h3>
                       <p className=' text-white/90 text-sm md:text-base leading-6 md:leading-normal'>{project.description}
                       </p>
-                      <ul className='flex flex-wrap gap-2 md:gap-3 items-center'>
+                      <div className='flex flex-wrap gap-2 md:gap-3 items-center'>
                         {project?.stack?.map((item: string, index: number) => (  // Explicitly define the type for 'item'
-                          <li key={index} className='text-xs text-hoverColor/60'>
+                            <Badge key={index} variant="secondary">
                             {item}
-                            {index !== (project?.stack?.length - 1) && ","}
-                          </li>
+                          </Badge>
                         ))}
-                      </ul>
+                      </div>
+                      
                       <Separator className='bg-white/20 rounded h-1 mb-2 '/>
                       <div className='flex items-center flex-row gap-4'>
                         <TooltipProvider>
@@ -122,7 +123,7 @@ const ProjectsPage = () => {
                       </div>
                     </div>
                     <div className='w-full md:w-1/2 order-1 md:order-2'>
-                      <div className='relative h-32 md:h-64 bg-gray-700 border-white/30 border rounded-xl overflow-hidden'>
+                      <div className='relative h-64 md:h-64 bg-gray-700 border-white/30 border rounded-xl overflow-hidden'>
                         <Image src={project.image} fill alt={project.title} className='object-cover'/>
                       </div>
                     </div>
