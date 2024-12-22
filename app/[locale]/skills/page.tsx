@@ -79,7 +79,7 @@ const SkillsPage = () => {
                       <motion.div 
                       initial={{ opacity: 0, y: 40 }}
                       animate={{ opacity: 1, y: 0 }}
-                      transition={{ delay: index * 0.2 }}
+                      transition={{ delay: 1 + index * 0.2 }}
                       className="w-20 h-20 flex items-center justify-center mb-4">
                         <Image
                           className="object-contain rounded-sm"
