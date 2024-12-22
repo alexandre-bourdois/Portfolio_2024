@@ -37,7 +37,7 @@
           "logo": "/resume_page/st.png",
           "Url":"https://www.st.com/",
           "period": "Décembre 2023 - Septembre 2024",
-          "description": "Développement de logiciels embarqués sur le module ST87M01 (NBIOT + GNSS). Mon rôle consistait à créer des applications clients pour démontrer le potentiel du module.",
+          "description": "Développement de logiciels embarqués pour le module ST87M01 (NBIOT + GNSS), avec l'ajout de nouvelles fonctionnalités à une librairie et la création d'applications clients pour démontrer le potentiel du module.",
           "highlights": ["C", "Python", "Système embarqué", "STM32", "Travail en équipe"]
         },
         {
@@ -55,7 +55,7 @@
           "logo": "/resume_page/lootus.png",
           "Url":"https://www.lootus.net",
           "period": "Septembre 2021 - Novembre 2023",
-          "description": "Développement d’un bootloader sur STM32 pour un écosystème de sécurité IoT. Reverse Engineering de système optique.",
+          "description": "Développement d’un bootloader sur STM32 pour un écosystème de sécurité IoT, réalisation de reverse engineering de systèmes optiques, et conception  de nouveaux produits, dont la carte I²Cx Scanner Pro, intégré dans l'écosystème cyber.",
           "highlights": ["CAO", "C", "Python", "STM32", "Système embarqué"]
         }
       ]
@@ -86,8 +86,8 @@
     "about": {
       "title": "À Propos de Moi",
       "bio": "Ingénieur passionné avec plus de 3 ans d'expérience, je suis curieux des domaines de l'espace, de la technologie, de la blockchain et de la cybersécurité. J'adore voyager, notamment en Asie, et j'essaie aussi de pratiquer un peu de sport pour garder un bon équilibre.",
-      "interests": ["Espace", "Technologie", "Voyage", "Blockchain"],
-      "languages": ["Français (Langue maternelle)", "Anglais (Intermédiaire)", "Allemand (Débutant)", "Chinois (Débutant)"]
+      "interests": [ "Voyage","Espace", "Technologie", "Blockchain", "Sport"],
+      "languages": ["Français (Langue maternelle)", "Anglais (Intermédiaire)", "Chinois (Débutant)", "Allemand (Débutant)"]
     }
   },
   "contact": {
@@ -130,7 +130,7 @@
         "title": "Imoobe 🏠",
         "date": "2024",
         "category": "Full Stack / SaaS",
-        "description": "Un SaaS moderne pour la gestion immobilière",
+        "description": "Une plateforme SaaS moderne construite avec Next.js, Prisma et Tailwind CSS pour centraliser, analyser et optimiser votre portefeuille immobilier.",
         "stack": ["Next.js", "Typescript", "TailwindCSS", "PostgreSQL", "Prisma", "Stripe"],
         "image": "/projects/imoobe.png",
         "url": "https://imoobe.com",
@@ -140,7 +140,7 @@
         "title": "ToDoChain ⛓️",
         "date": "2024",
         "category": "Full Stack / Web3",
-        "description": "ToDoChain est une application de liste de tâches décentralisée construite sur la blockchain Ethereum",
+        "description": "ToDoChain est une application de liste de tâches décentralisée construite sur la blockchain Ethereum.",
         "stack": ["Next.js", "Javascript", "TailwindCSS", "Solidity", "Truffle", "React"],
         "image": "/projects/ToDoChain.png",
         "url": "https://todochain.alexandrebourdois.com/",
@@ -150,7 +150,7 @@
         "title": "HSK AI 🧧",
         "date": "2024",
         "category": "Machine Learning",
-        "description": "C'est un projet d'apprentissage automatique pour identifier avec précision les caractères chinois de base.",
+        "description": "Un projet d'IA dédié à identifier avec précision les caractères chinois de base (HSK1), simplifiant l'apprentissage et la reconnaissance visuelle.",
         "stack": ["Python", "TensorFlow", "Tkinter"],
         "image": "/projects/HSK_AI.png",
         "url": false,
@@ -160,7 +160,7 @@
         "title": "Portfolio 2023🪪",
         "date": "2023",
         "category": "Full Stack",
-        "description": "C'est un portfolio en ligne montrant mon profil professionnel, développé en HTML/CSS et JavaScript.",
+        "description": "Mon premier portfolio en ligne, créé en 2023 avec HTML, CSS et JavaScript, marquant mes débuts dans le développement web.",
         "stack": ["HTML", "CSS", "Javascript"],
         "image": "/projects/portfolio_2023.jpg",
         "url": "https://portfolio_2023.alexandrebourdois.com/",

@@ -37,7 +37,7 @@
           "logo": "/resume_page/st.png",
           "Url":"https://www.st.com/",
           "period": "December 2023 - September 2024",
-          "description": "Embedded software development on ST87M01 module (NBIOT + GNSS). My role was to create customer applications to demonstrate the module's potential.",
+          "description": "Embedded software development for the ST87M01 module (NBIOT + GNSS), including adding new features to a library and creating client applications to showcase the module's potential.",
           "highlights": ["C", "Python", "Embedded", "STM32", "Team"]
         },
         {
@@ -55,7 +55,7 @@
           "logo": "/resume_page/lootus.png",
           "Url":"https://www.lootus.net",
           "period": "September 2021 - November 2023",
-          "description": "Development of a bootloader on STM32 for an IoT security ecosystem. Reverse engineering of optical systems.",
+          "description": "Development of a bootloader on STM32 for an IoT security ecosystem, reverse engineering of optical systems, and design of new products, including the I²Cx Scanner Pro board, integrated into the cyber ecosystem.",
           "highlights": ["CAD", "C", "Python", "STM32", "Embedded"]
         }
       ]
@@ -86,8 +86,8 @@
     "about": {
       "title": "About Me",
       "bio": "Passionate engineer with over 3 years of experience, I’m curious about space, technology, blockchain, and cybersecurity. I love traveling, especially in Asia, and I try to stay active by practicing some sports.",
-      "interests": ["Space", "Tech", "Travel", "Blockchain"],
-      "languages": ["French (Native)", "English (Intermediate)", "German (Basic)", "Chinese (Basic)"]
+      "interests": [ "Travel","Space", "Tech", "Blockchain", "sport"],
+      "languages": ["French (Native)", "English (Intermediate)", "Chinese (Basic)", "German (Basic)"]
     }
   },
   "contact": {
@@ -130,7 +130,7 @@
         "title": "Imoobe 🏠",
         "date": "2024",
         "category": "Full Stack / SaaS",
-        "description": "A modern SaaS about real Estate management",
+        "description": "A modern SaaS platform built with Next.js, Prisma, and Tailwind CSS to centralize, analyze, and optimize your real estate portfolio.",
         "stack": ["Next.js", "Typescript", "TailwindCSS", "PostgreSQL", "Prisma", "Stripe"],
         "image": "/projects/imoobe.png",
         "url": "https://imoobe.com",
@@ -150,7 +150,7 @@
         "title": "HSK AI 🧧",
         "date": "2024",
         "category": "Machine Learning",
-        "description": "It's a machine learning project for accurate identification of basic Chinese characters.",
+        "description": "A machine learning project designed to accurately identify basic Chinese characters (HSK1), simplifying learning and visual recognition.",
         "stack": ["Python", "TensorFlow", "Tkinter"],
         "image": "/projects/HSK_AI.png",
         "url": false,
@@ -160,7 +160,7 @@
         "title": "Portfolio 2023🪪",
         "date": "2023",
         "category": "Full Stack",
-        "description": "It's a website portfolio showing my professional profile developed in HTML/CSS and JavaScript.",
+        "description": "My first online portfolio, created in 2023 with HTML, CSS, and JavaScript, marking the beginning of my web development journey.",
         "stack": ["HTML", "CSS", "Javascript"],
         "image": "/projects/portfolio_2023.jpg",
         "url": "https://portfolio_2023.alexandrebourdois.com/",
