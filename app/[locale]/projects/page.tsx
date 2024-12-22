@@ -65,9 +65,9 @@ const ProjectsPage = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.8 + index * 0.5, duration: 1 }}>
               <Card className='bg-bodyColor border-lightSky md:w-3/4 w-full'>
-                <CardContent className="p-6">
-                  <div className={`flex flex-col md:flex-row md:items-center group ${index % 2 === 0 ? 'md:flex-row-reverse' : ''}`}>
-                    <div className='w-full flex flex-col gap-2 md:w-1/2 order-2 md:order-1 mb-8 md:mb-0 p-4'>
+              <CardContent className="p-6 pb-0 md:pb-6">
+              <div className={`flex flex-col md:flex-row md:items-center group ${index % 2 === 0 ? 'md:flex-row-reverse' : ''}`}>
+                    <div className='w-full flex flex-col gap-2 md:w-1/2 order-2 md:order-1 mb-0 md:mb-0 p-4'>
                       <h2 className='text-white md:text-3xl text-2xl font-bold leading-none group-hover:text-lightSky group-hover:cursor-default group-hover:underline hoverEffect'>
                         {project.title}
                       </h2>
