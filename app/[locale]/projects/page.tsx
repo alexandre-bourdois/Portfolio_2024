@@ -100,7 +100,7 @@ const ProjectsPage = () => {
                                 </Button>
                               )}
                             </TooltipTrigger>
-                            <TooltipContent className='bg-white text-black text-xs rounded p-1 font-semibold'>
+                            <TooltipContent className='bg-white text-black text-xs rounded p-1 font-semibold z-10'>
                               <p>View the project</p>
                             </TooltipContent>
                           </Tooltip>
