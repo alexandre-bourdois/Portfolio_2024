@@ -12,7 +12,7 @@ export default function HomePage() {
   const t = useTranslations("Home");
   const locale = useLocale();
 
-  const filePath = locale === 'en' ? '/resume/resume.pdf' : '/resume/cv.pdf';
+  const filePath = locale === 'en' ? '/resume/Resume.pdf' : '/resume/CV.pdf';
 
   return (
     <div className="bg-bodyColor text-white/80">
