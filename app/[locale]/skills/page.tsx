@@ -87,6 +87,7 @@ const SkillsPage = () => {
                           width={80}
                           height={80}
                           alt={`${item?.name} Logo`}
+                          priority
                         />
                       </motion.div>
                       <h3 className="text-lg font-semibold text-center">{item?.name}</h3>
@@ -122,6 +123,7 @@ const SkillsPage = () => {
                           width={80}
                           height={80}
                           alt={`${item?.name} Logo`}
+                          priority
                         />
                       </motion.div>
                       <h3 className="text-lg font-semibold text-center">{item?.name}</h3>
