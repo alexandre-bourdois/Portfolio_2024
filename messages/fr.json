@@ -133,7 +133,7 @@
         "description": "Une plateforme SaaS moderne construite avec Next.js, Prisma et Tailwind CSS pour centraliser, analyser et optimiser votre portefeuille immobilier.",
         "stack": ["Next.js", "Typescript", "TailwindCSS", "PostgreSQL", "Prisma", "Stripe"],
         "image": "/projects/imoobe.png",
-        "url": "https://imoobe.com",
+        "url": "https://app.imoobe.com",
         "githubUrl": "https://github.com/alexandre-bourdois/Imoobe"
       },
       {
