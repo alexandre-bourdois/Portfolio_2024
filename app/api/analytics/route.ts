@@ -8,7 +8,7 @@ export const config = {
 export async function GET(req: NextRequest) {
   try {
 
-    const credentials = process.env.NEXT_PUBLIC_GOOGLE_SERVICE_ACCOUNT_KEY;
+    const credentials = process.env.GOOGLE_SERVICE_ACCOUNT_KEY;
 
     if (!credentials) {
       return NextResponse.json(
@@ -29,7 +29,7 @@ export async function GET(req: NextRequest) {
       auth,
     });
 
-    const propertyId = process.env.NEXT_PUBLIC_GOOGLE_PROPERTY_ID;
+    const propertyId = process.env.GOOGLE_PROPERTY_ID;
 
     if (!propertyId) {
       return NextResponse.json(
