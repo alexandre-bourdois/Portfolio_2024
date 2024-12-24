@@ -14,7 +14,7 @@ import LocaleSwitcher from '../settings/LocaleSwitcher';
 function Header() {
     const t = useTranslations();
     const locale = useLocale();
-    const filePath = locale === 'en' ? '/resume/resume.pdf' : '/resume/cv.pdf';
+    const filePath = locale === 'en' ? '/resume/Resume.pdf' : '/resume/CV.pdf';
 
     const [menuOpen,setMenuOpen] = useState(false);
     const pathname = usePathname()
