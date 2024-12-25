@@ -69,7 +69,7 @@ const Statistics = () => {
           className="text-4xl lg:text-6xl font-extrabold text-white"
           end={visitorCount}
         />
-        <p className="leading-snug text-sm">{t("VisitorsThisMonth")}</p>
+        <p className="leading-snug text-sm md:text-xs">{t("VisitorsThisMonth")}</p>
       </div>
     </div>
   );
