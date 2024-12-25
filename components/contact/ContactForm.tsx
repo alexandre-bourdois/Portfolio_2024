@@ -41,6 +41,7 @@ const ContactForm = () => {
         return;
       }
       const form = new FormData();
+      form.append('access_key', process.env.NEXT_PUBLIC_ACCESS_KEY as string);
       const currentDateTime = new Date().toLocaleDateString();
       form.append('Name', formData.Name);
       form.append('Email', formData.Email);
