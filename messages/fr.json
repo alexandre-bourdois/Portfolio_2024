@@ -131,10 +131,20 @@
         "date": "2024",
         "category": "Full Stack / SaaS",
         "description": "Une plateforme SaaS moderne construite avec Next.js, Prisma et Tailwind CSS pour centraliser, analyser et optimiser votre portefeuille immobilier.",
-        "stack": ["Next.js", "Typescript", "TailwindCSS", "PostgreSQL", "Prisma", "Stripe"],
+        "stack": ["Next.js", "Typescript","React", "TailwindCSS", "PostgreSQL", "Prisma", "Stripe"],
         "image": "/projects/imoobe.png",
         "url": "https://app.imoobe.com",
         "githubUrl": "https://github.com/alexandre-bourdois/Imoobe"
+      },
+      {
+        "title": "Portfolio 2024🪪",
+        "date": "2024",
+        "category": "Full Stack",
+        "description": "Mon dernier portfolio en ligne, créé en 2024 en TypeScript avec NextJS, Tailwind CSS et React, montrant mes derniers projets personnels et mon évolution professionel.",
+        "stack": ["NextJS","Typescript", "React", "TailwindCSS"],
+        "image": "/projects/portfolio_2024.png",
+        "url": "https://portfolio-2024.alexandrebourdois.com/",
+        "githubUrl": "https://github.com/alexandre-bourdois/Portfolio_2024"
       },
       {
         "title": "ToDoChain ⛓️",
@@ -162,7 +172,7 @@
         "category": "Full Stack",
         "description": "Mon premier portfolio en ligne, créé en 2023 avec HTML, CSS et JavaScript, marquant mes débuts dans le développement web.",
         "stack": ["HTML", "CSS", "Javascript"],
-        "image": "/projects/portfolio_2023.jpg",
+        "image": "/projects/portfolio_2023.png",
         "url": "https://portfolio-2023.alexandrebourdois.com/",
         "githubUrl": "https://github.com/alexandre-bourdois/Portfolio_2023"
       }
