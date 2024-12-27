@@ -142,7 +142,7 @@
         "category": "Full Stack",
         "description": "Mon dernier portfolio en ligne, créé en 2024 en TypeScript avec NextJS, Tailwind CSS et React, montrant mes derniers projets personnels et mon évolution professionel.",
         "stack": ["NextJS","Typescript", "React", "TailwindCSS"],
-        "image": "/projects/portfolio_2024.png",
+        "image": "/projects/Portfolio_2024.png",
         "url": "https://portfolio-2024.alexandrebourdois.com/",
         "githubUrl": "https://github.com/alexandre-bourdois/Portfolio_2024"
       },
