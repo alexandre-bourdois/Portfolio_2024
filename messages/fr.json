@@ -172,7 +172,7 @@
         "category": "Full Stack",
         "description": "Mon premier portfolio en ligne, créé en 2023 avec HTML, CSS et JavaScript, marquant mes débuts dans le développement web.",
         "stack": ["HTML", "CSS", "Javascript"],
-        "image": "/projects/portfolio_2023.png",
+        "image": "/projects/Portfolio_2023.png",
         "url": "https://portfolio-2023.alexandrebourdois.com/",
         "githubUrl": "https://github.com/alexandre-bourdois/Portfolio_2023"
       }
