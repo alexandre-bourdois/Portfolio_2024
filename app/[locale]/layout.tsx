@@ -39,17 +39,7 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
-      <body className={`${raleway.variable} antialiased text-white`}>
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          <Header />
-          <StairTransition />
-          <PageTransition>
-            <div className="px-10">
-              {children}
-            </div>
-          </PageTransition>
-          <Toaster />
-        </NextIntlClientProvider>
+      <head>
         {/* Google Tag Manager */}
         <Script
           id="gtm-script"
@@ -64,6 +54,8 @@ export default async function RootLayout({
             `,
           }}
         />
+      </head>
+      <body className={`${raleway.variable} antialiased text-white`}>
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
@@ -73,6 +65,16 @@ export default async function RootLayout({
             style={{ display: 'none', visibility: 'hidden' }}
           ></iframe>
         </noscript>
+        <NextIntlClientProvider locale={locale} messages={messages}>
+          <Header />
+          <StairTransition />
+          <PageTransition>
+            <div className="px-10">
+              {children}
+            </div>
+          </PageTransition>
+          <Toaster />
+        </NextIntlClientProvider>
       </body>
     </html>
   );
