@@ -59,7 +59,7 @@ const Statistics = () => {
         <CountUp
           duration={7}
           className="text-4xl lg:text-6xl font-extrabold text-white"
-          end={400}
+          end={444}
         />
         <p className="leading-snug text-sm">{t("Commits2024")}</p>
       </div>
