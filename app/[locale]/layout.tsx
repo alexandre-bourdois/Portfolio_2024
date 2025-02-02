@@ -1,15 +1,16 @@
-import type { Metadata } from "next";
-import localFont from "next/font/local";
-import "../globals.css";
-import { NextIntlClientProvider } from "next-intl";
-import { notFound } from "next/navigation";
 import { routing } from "@/app/i18n/routing";
-import { getMessages } from "next-intl/server";
 import Header from "@/components/header/header";
 import PageTransition from "@/components/transition/PageTransition";
 import StairTransition from "@/components/transition/StairTransition";
 import { Toaster } from "@/components/ui/toaster";
-import Script from 'next/script';
+import { Analytics } from "@vercel/analytics/react";
+import type { Metadata } from "next";
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages } from "next-intl/server";
+import localFont from "next/font/local";
+import { notFound } from "next/navigation";
+import Script from "next/script";
+import "../globals.css";
 
 export const metadata: Metadata = {
   title: "Portfolio | Alexandre Bourdois",
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
 };
 
 const raleway = localFont({
-  src: './fonts/Raleway.woff2',
+  src: "./fonts/Raleway.woff2",
   variable: "--font-raleway",
   weight: "100 900",
 });
@@ -31,7 +32,7 @@ export default async function RootLayout({
 }) {
   const { locale } = await params;
 
-  if (!routing.locales.includes(locale as typeof routing.locales[number])) {
+  if (!routing.locales.includes(locale as (typeof routing.locales)[number])) {
     notFound();
   }
 
@@ -79,18 +80,17 @@ export default async function RootLayout({
             src={`https://www.googletagmanager.com/ns.html?id=${process.env.NEXT_PUBLIC_GTM_ID}`}
             height="0"
             width="0"
-            style={{ display: 'none', visibility: 'hidden' }}
+            style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
           <StairTransition />
           <PageTransition>
-            <div className="px-10">
-              {children}
-            </div>
+            <div className="px-10">{children}</div>
           </PageTransition>
           <Toaster />
+          <Analytics />
         </NextIntlClientProvider>
       </body>
     </html>
