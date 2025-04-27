@@ -26,6 +26,7 @@
     "tabMenu": {
       "experience": "Professionel",
       "education": "Éducation",
+      "certification": "Certification",
       "about": "À propos de moi"
     },
     "experience": {
@@ -35,16 +36,22 @@
           "role": "Ingénieur Support Applicatif",
           "company": "STMicroelectronics | Rennes, France",
           "logo": "/resume_page/st.png",
-          "Url":"https://www.st.com/",
+          "Url": "https://www.st.com/",
           "period": "Décembre 2023 - Septembre 2024",
           "description": "Développement de logiciels embarqués pour le module ST87M01 (NBIOT + GNSS), avec l'ajout de nouvelles fonctionnalités à une librairie et la création d'applications clients pour démontrer le potentiel du module.",
-          "highlights": ["C", "Python", "Système embarqué", "STM32", "Travail en équipe"]
+          "highlights": [
+            "C",
+            "Python",
+            "Système embarqué",
+            "STM32",
+            "Travail en équipe"
+          ]
         },
         {
           "role": "Stagiaire Ingénieur Hardware",
           "company": "UTM | Johor Bahru, Malaisie",
           "logo": "/resume_page/utm.png",
-          "Url":"https://www.utm.my/",
+          "Url": "https://www.utm.my/",
           "period": "Août 2023 - Décembre 2023",
           "description": "Conception de sondes numériques, de la CAO à l'assemblage.  Reverse Engineering d'un onduleur. Expérience multiculturelle en Malaisie.",
           "highlights": ["CAO", "Verilog", "Système embarqué"]
@@ -53,9 +60,9 @@
           "role": "Consultant en Cybersécurité IoT",
           "company": "LOOTUS SECURITY | Saint Grégoire, France",
           "logo": "/resume_page/lootus.png",
-          "Url":"https://www.lootus.net",
+          "Url": "https://www.lootus.net",
           "period": "Septembre 2021 - Novembre 2023",
-          "description": "Développement d’un bootloader sur STM32 pour un écosystème de sécurité IoT, réalisation de reverse engineering de systèmes optiques, et conception  de nouveaux produits, dont la carte I²Cx Scanner Pro, intégré dans l'écosystème cyber.",
+          "description": "Développement d'un bootloader sur STM32 pour un écosystème de sécurité IoT, réalisation de reverse engineering de systèmes optiques, et conception  de nouveaux produits, dont la carte I²Cx Scanner Pro, intégré dans l'écosystème cyber.",
           "highlights": ["CAO", "C", "Python", "STM32", "Système embarqué"]
         }
       ]
@@ -67,33 +74,60 @@
           "degree": "Diplôme d'ingénieur",
           "institution": "INSA Rennes",
           "logo": "/resume_page/insa.png",
-          "Url":"https://www.insa-rennes.fr/",
+          "Url": "https://www.insa-rennes.fr/",
           "period": "2021-2024",
           "description": "Spécialisé en électronique, systèmes embarqués et télécommunications, alliant compétences techniques et managériales via un programme d'apprentissage pratique.",
-          "achievements": ["TOEIC"]
+          "achievements": ["TOEIC"],
+          "diplomaUrl": "https://certificate.bcdiploma.com/check/C295DFA043A6B7A9A9B55C6C58BCC2F5300ADEB5191CBEF4D09FBECE827273B4ejVXR3VEUVQyRUtuVSszZGpRaHpPVng2VEwzUzkwbm5qQ0R3c00yNitQaEZ6aTFl"
         },
         {
           "degree": "DUT GEII",
           "institution": "IUT Rennes",
           "logo": "/resume_page/iut.png",
-          "Url":"https://iut-rennes.univ-rennes.fr/",
+          "Url": "https://iut-rennes.univ-rennes.fr/",
           "period": "2019-2021",
           "description": "Formation en électronique, informatique industrielle, automatisme et systèmes embarqués, orientée vers la conception et le développement de solutions innovantes.",
           "achievements": ["Certification électrique B1V"]
         }
       ]
     },
+    "certification": {
+      "title": "Certifications",
+      "items": [
+        {
+          "degree": "Micro-certification Développeur Solana",
+          "institution": "Alyra",
+          "logo": "/resume_page/alyra.png",
+          "Url": "https://www.alyra.fr/formations/devenir-developpeur-solana",
+          "period": "25 avril 2025",
+          "description": "Formation Développeur Solana de 9 semaines complétée dans la session Galilée. Développement de no-rug.fun, un launcher de tokens construit sur Solana utilisant le framework Anchor en Rust et une interface Next.js TypeScript, réalisé en équipe de 3 personnes.",
+          "achievements": [
+            "Blockchain",
+            "Solana",
+            "Développement d'applications décentralisées",
+            "Soutenance en équipe"
+          ],
+          "diplomaUrl": "https://certificate.alyra.fr/check/8878A25F49A4F9C3B4024DCA6D3074D5CF732194390BC71D57392F07FBCE350DSENNTlJUUVNZemRjejhSUlA0TStXcXkvcEhnbmMycWs3blI2YW5FNTNxZmpDY3lq"
+        }
+      ]
+    },
     "about": {
       "title": "À Propos de Moi",
       "bio": "Ingénieur passionné avec plus de 3 ans d'expérience, je suis curieux des domaines de l'espace, de la technologie, de la blockchain et de la cybersécurité. J'adore voyager, notamment en Asie, et j'essaie aussi de pratiquer un peu de sport pour garder un bon équilibre.",
-      "interests": [ "Voyage","Espace", "Technologie", "Blockchain", "Sport"],
-      "languages": ["Français (Langue maternelle)", "Anglais (Professionnel)", "Chinois (Débutant)", "Allemand (Débutant)"]
-    }
+      "interests": ["Voyage", "Espace", "Technologie", "Blockchain", "Sport"],
+      "languages": [
+        "Français (Langue maternelle)",
+        "Anglais (Professionnel)",
+        "Chinois (Débutant)",
+        "Allemand (Débutant)"
+      ]
+    },
+    "viewDiploma": "Voir le diplôme"
   },
   "contact": {
     "header": "Mes profils et Contacts",
-    "headerForm":"Me contacter",
-    "description": "Je suis toujours à la recherche de projets stimulants et de collaborations enrichissantes. Que ce soit pour une question, une proposition ou simplement pour échanger, n’hésitez pas à me contacter !",
+    "headerForm": "Me contacter",
+    "description": "Je suis toujours à la recherche de projets stimulants et de collaborations enrichissantes. Que ce soit pour une question, une proposition ou simplement pour échanger, n'hésitez pas à me contacter !",
     "placeholders": {
       "name": "Votre nom",
       "email": "Adresse email",
@@ -127,11 +161,37 @@
     "title": "Mes Projets",
     "projects": [
       {
+        "title": "NoRug.fun 🪙",
+        "date": "2025",
+        "category": "Full Stack / Web3",
+        "description": "Un launcher de tokens sélectif construit sur Solana, conçu pour améliorer la transparence et l'équité des lancements de tokens. Débuté lors de la formation Alyra et poursuivi pour le hackathon Solana Colosseum Breakout.",
+        "stack": [
+          "Next.js",
+          "Typescript",
+          "React",
+          "TailwindCSS",
+          "Anchor",
+          "Rust",
+          "Solana"
+        ],
+        "image": "/projects/NoRug.png",
+        "url": "https://norug-fun.vercel.app/fr/howitworks",
+        "githubUrl": "https://github.com/pylejeune/norug-fun"
+      },
+      {
         "title": "Imoobe 🏠",
         "date": "2024",
         "category": "Full Stack / SaaS",
         "description": "Une plateforme SaaS moderne construite avec Next.js, Prisma et Tailwind CSS pour centraliser, analyser et optimiser votre portefeuille immobilier.",
-        "stack": ["Next.js", "Typescript","React", "TailwindCSS", "PostgreSQL", "Prisma", "Stripe"],
+        "stack": [
+          "Next.js",
+          "Typescript",
+          "React",
+          "TailwindCSS",
+          "PostgreSQL",
+          "Prisma",
+          "Stripe"
+        ],
         "image": "/projects/imoobe.png",
         "url": "https://imoobe.com/fr",
         "githubUrl": "https://github.com/alexandre-bourdois/Imoobe"
@@ -141,7 +201,7 @@
         "date": "2024",
         "category": "Full Stack",
         "description": "Mon dernier portfolio en ligne, créé en 2024 en TypeScript avec NextJS, Tailwind CSS et React, montrant mes derniers projets personnels et mon évolution professionel.",
-        "stack": ["NextJS","Typescript", "React", "TailwindCSS"],
+        "stack": ["NextJS", "Typescript", "React", "TailwindCSS"],
         "image": "/projects/Portfolio_2024.png",
         "url": "https://portfolio-2024.alexandrebourdois.com/",
         "githubUrl": "https://github.com/alexandre-bourdois/Portfolio_2024"
@@ -151,7 +211,14 @@
         "date": "2024",
         "category": "Full Stack / Web3",
         "description": "ToDoChain est une application de liste de tâches décentralisée construite sur la blockchain Ethereum.",
-        "stack": ["Next.js", "Javascript", "TailwindCSS", "Solidity", "Truffle", "React"],
+        "stack": [
+          "Next.js",
+          "Javascript",
+          "TailwindCSS",
+          "Solidity",
+          "Truffle",
+          "React"
+        ],
         "image": "/projects/ToDoChain.png",
         "url": "https://todochain.alexandrebourdois.com/",
         "githubUrl": "https://github.com/alexandre-bourdois/ToDoChain"
@@ -225,6 +292,11 @@
           "name": "Git",
           "logo": "/skills/Software/Git.svg",
           "link": "https://git-scm.com/"
+        },
+        {
+          "name": "Rust",
+          "logo": "/skills/Software/Rust.svg",
+          "link": "https://www.rust-lang.org/"
         }
       ]
     },
@@ -328,6 +400,16 @@
           "name": "Git",
           "logo": "/skills/Software/Git.svg",
           "link": "https://git-scm.com/"
+        },
+        {
+          "name": "Anchor",
+          "logo": "/skills/Web/Anchor.svg",
+          "link": "https://www.anchor-lang.com/"
+        },
+        {
+          "name": "Stripe",
+          "logo": "/skills/Web/Stripe.svg",
+          "link": "https://stripe.com/"
         }
       ]
     }

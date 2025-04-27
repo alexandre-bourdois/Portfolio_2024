@@ -26,6 +26,7 @@
     "tabMenu": {
       "experience": "Experience",
       "education": "Education",
+      "certification": "Certification",
       "about": "About me"
     },
     "experience": {
@@ -35,7 +36,7 @@
           "role": "Application Support Engineer",
           "company": "STMicroelectronics | Rennes, France",
           "logo": "/resume_page/st.png",
-          "Url":"https://www.st.com/",
+          "Url": "https://www.st.com/",
           "period": "December 2023 - September 2024",
           "description": "Embedded software development for the ST87M01 module (NBIOT + GNSS), including adding new features to a library and creating client applications to showcase the module's potential.",
           "highlights": ["C", "Python", "Embedded", "STM32", "Team"]
@@ -44,7 +45,7 @@
           "role": "Hardware Engineer Intern",
           "company": "UTM | Johor Bahru, Malaysia",
           "logo": "/resume_page/utm.png",
-          "Url":"https://www.utm.my/",
+          "Url": "https://www.utm.my/",
           "period": "August 2023 - December 2023",
           "description": "Digital probe design from CAD to assembly. Reverse Engineering of a Power Inverter. Multi-cultural experience in Malaysia.",
           "highlights": ["CAD", "Verilog", "Embedded"]
@@ -53,7 +54,7 @@
           "role": "IoT Cybersecurity Consultant",
           "company": "LOOTUS SECURITY | Saint Grégoire, France",
           "logo": "/resume_page/lootus.png",
-          "Url":"https://www.lootus.net",
+          "Url": "https://www.lootus.net",
           "period": "September 2021 - November 2023",
           "description": "Development of a bootloader on STM32 for an IoT security ecosystem, reverse engineering of optical systems, and design of new products, including the I²Cx Scanner Pro board, integrated into the cyber ecosystem.",
           "highlights": ["CAD", "C", "Python", "STM32", "Embedded"]
@@ -67,32 +68,59 @@
           "degree": "Master of Engineering",
           "institution": "INSA Rennes",
           "logo": "/resume_page/insa.png",
-          "Url":"https://www.insa-rennes.fr/",
+          "Url": "https://www.insa-rennes.fr/",
           "period": "2021-2024",
           "description": "Specialized in electronics, embedded systems, and telecommunications, combining technical expertise with management skills through a hands-on apprenticeship program.",
-          "achievements": ["TOEIC"]
+          "achievements": ["TOEIC"],
+          "diplomaUrl": "https://certificate.bcdiploma.com/check/C295DFA043A6B7A9A9B55C6C58BCC2F5300ADEB5191CBEF4D09FBECE827273B4ejVXR3VEUVQyRUtuVSszZGpRaHpPVng2VEwzUzkwbm5qQ0R3c00yNitQaEZ6aTFl"
         },
         {
           "degree": "Bachelor of Engineering",
           "institution": "IUT Rennes",
           "logo": "/resume_page/iut.png",
-          "Url":"https://iut-rennes.univ-rennes.fr/",
+          "Url": "https://iut-rennes.univ-rennes.fr/",
           "period": "2019-2021",
           "description": "Education in electronics, industrial computing, automation, and embedded systems, emphasizing the design and development of innovative solutions.",
           "achievements": ["B1V electrical certification"]
         }
       ]
     },
+    "certification": {
+      "title": "Certifications",
+      "items": [
+        {
+          "degree": "Solana Developer Micro-certification",
+          "institution": "Alyra",
+          "logo": "/resume_page/alyra.png",
+          "Url": "https://www.alyra.fr/formations/devenir-developpeur-solana",
+          "period": "April 25, 2025",
+          "description": "Completed the 9-week Solana Developer training program in the Galileo session. Developed no-rug.fun, a token launcher built on Solana using Anchor Framework in Rust and a Next.js TypeScript frontend, as part of a 3-person team.",
+          "achievements": [
+            "Blockchain",
+            "Solana",
+            "Decentralized Application Development",
+            "Team Project Defense"
+          ],
+          "diplomaUrl": "https://certificate.alyra.fr/check/8878A25F49A4F9C3B4024DCA6D3074D5CF732194390BC71D57392F07FBCE350DSENNTlJUUVNZemRjejhSUlA0TStXcXkvcEhnbmMycWs3blI2YW5FNTNxZmpDY3lq"
+        }
+      ]
+    },
     "about": {
       "title": "About Me",
-      "bio": "Passionate engineer with over 3 years of experience, I’m curious about space, technology, blockchain, and cybersecurity. I love traveling, especially in Asia, and I try to stay active by practicing some sports.",
-      "interests": [ "Travel","Space", "Tech", "Blockchain", "sport"],
-      "languages": ["French (Native)", "English (Professional)", "Chinese (Basic)", "German (Basic)"]
-    }
+      "bio": "Passionate engineer with over 3 years of experience, I'm curious about space, technology, blockchain, and cybersecurity. I love traveling, especially in Asia, and I try to stay active by practicing some sports.",
+      "interests": ["Travel", "Space", "Tech", "Blockchain", "sport"],
+      "languages": [
+        "French (Native)",
+        "English (Professional)",
+        "Chinese (Basic)",
+        "German (Basic)"
+      ]
+    },
+    "viewDiploma": "View diploma"
   },
   "contact": {
     "header": "My Profiles and Contact",
-    "headerForm":"Contact me",
+    "headerForm": "Contact me",
     "description": "I am always looking for exciting projects and enriching collaborations. Whether you have a question, a proposal, or simply want to connect, feel free to reach out!",
     "placeholders": {
       "name": "Your name",
@@ -123,15 +151,41 @@
       "description": "Your message has been successfully sent."
     }
   },
- "projects": {
+  "projects": {
     "title": "My Projects",
     "projects": [
+      {
+        "title": "NoRug.fun 🪙",
+        "date": "2025",
+        "category": "Full Stack / Web3",
+        "description": "A selective token launcher built on Solana, designed to enhance transparency and fairness in token launches.  Started during Alyra training and continued for the Solana Colosseum Breakout hackathon.",
+        "stack": [
+          "Next.js",
+          "Typescript",
+          "React",
+          "TailwindCSS",
+          "Anchor",
+          "Rust",
+          "Solana"
+        ],
+        "image": "/projects/NoRug.png",
+        "url": "https://norug-fun.vercel.app/en/howitworks",
+        "githubUrl": "https://github.com/pylejeune/norug-fun"
+      },
       {
         "title": "Imoobe 🏠",
         "date": "2024",
         "category": "Full Stack / SaaS",
         "description": "A modern SaaS platform built with Next.js, Prisma, and Tailwind CSS to centralize, analyze, and optimize your real estate portfolio.",
-        "stack": ["Next.js", "Typescript","React", "TailwindCSS", "PostgreSQL", "Prisma", "Stripe"],
+        "stack": [
+          "Next.js",
+          "Typescript",
+          "React",
+          "TailwindCSS",
+          "PostgreSQL",
+          "Prisma",
+          "Stripe"
+        ],
         "image": "/projects/imoobe.png",
         "url": "https://imoobe.com/en",
         "githubUrl": "https://github.com/alexandre-bourdois/Imoobe"
@@ -151,7 +205,14 @@
         "date": "2024",
         "category": "Full Stack / Web3",
         "description": "ToDoChain is a decentralized to-do list application built on Ethereum blockchain",
-        "stack": ["Next.js", "Javascript", "TailwindCSS", "Solidity", "Truffle", "React"],
+        "stack": [
+          "Next.js",
+          "Javascript",
+          "TailwindCSS",
+          "Solidity",
+          "Truffle",
+          "React"
+        ],
         "image": "/projects/ToDoChain.png",
         "url": "https://todochain.alexandrebourdois.com/",
         "githubUrl": "https://github.com/alexandre-bourdois/ToDoChain"
@@ -197,14 +258,14 @@
           "link": "https://en.wikipedia.org/wiki/C_(programming_language)"
         },
         {
-            "name": "C++",
-            "logo": "/skills/Software/Cpp.svg",
-            "link": "https://en.wikipedia.org/wiki/C%2B%2B"
+          "name": "C++",
+          "logo": "/skills/Software/Cpp.svg",
+          "link": "https://en.wikipedia.org/wiki/C%2B%2B"
         },
         {
-            "name": "Python",
-            "logo": "/skills/Software/Python.svg",
-            "link": "https://www.python.org/"
+          "name": "Python",
+          "logo": "/skills/Software/Python.svg",
+          "link": "https://www.python.org/"
         },
         {
           "name": "Linux",
@@ -217,16 +278,21 @@
           "link": "https://en.wikipedia.org/wiki/Computer_security"
         },
         {
-            "name": "CMake",
-            "logo": "/skills/Software/CMake.svg",
-            "link": "https://cmake.org/"
+          "name": "CMake",
+          "logo": "/skills/Software/CMake.svg",
+          "link": "https://cmake.org/"
         },
         {
-            "name": "Git",
-            "logo": "/skills/Software/Git.svg",
-            "link": "https://git-scm.com/"
+          "name": "Git",
+          "logo": "/skills/Software/Git.svg",
+          "link": "https://git-scm.com/"
+        },
+        {
+          "name": "Rust",
+          "logo": "/skills/Software/Rust.svg",
+          "link": "https://www.rust-lang.org/"
         }
-        ]
+      ]
     },
     "hardware": {
       "items": [
@@ -234,55 +300,55 @@
           "name": "ECAD",
           "logo": "/skills/Hardware/Eda.svg",
           "link": "https://en.wikipedia.org/wiki/Electronic_design_automation"
-      },
-      {
+        },
+        {
           "name": "Memory Management",
           "logo": "/skills/Hardware/MemoryManagement.svg",
           "link": "https://en.wikipedia.org/wiki/Memory_management"
-      },
-      {
+        },
+        {
           "name": "Reverse Engineering",
           "logo": "/skills/Hardware/ReverseEngineering.svg",
           "link": "https://en.wikipedia.org/wiki/Reverse_engineering#:~:text=Reverse%20engineering%20(also%20known%20as,exactly%20how%20it%20does%20so."
-      },
-      {
+        },
+        {
           "name": "Communication Protocols",
           "logo": "/skills/Hardware/CommunicationProtocols.svg",
           "link": "https://en.wikipedia.org/wiki/Communication_protocol"
-      },
-      {
+        },
+        {
           "name": "Radio Frequency",
           "logo": "/skills/Hardware/RadioFrequency.svg",
           "link": "https://en.wikipedia.org/wiki/Radio_frequency"
-      },
-      {
-        "name": "VHDL",
-        "logo": "/skills/Hardware/Vhdl.svg",
-        "link": "https://en.wikipedia.org/wiki/VHDL"
-    }
-    ]
+        },
+        {
+          "name": "VHDL",
+          "logo": "/skills/Hardware/Vhdl.svg",
+          "link": "https://en.wikipedia.org/wiki/VHDL"
+        }
+      ]
     },
     "web": {
       "items": [
-          {
-            "name": "HTML",
-            "logo": "/skills/Web/Html.svg",
-            "link": "https://en.wikipedia.org/wiki/HTML"
+        {
+          "name": "HTML",
+          "logo": "/skills/Web/Html.svg",
+          "link": "https://en.wikipedia.org/wiki/HTML"
         },
         {
-            "name": "CSS",
-            "logo": "/skills/Web/Css.svg",
-            "link": "https://en.wikipedia.org/wiki/CSS"
+          "name": "CSS",
+          "logo": "/skills/Web/Css.svg",
+          "link": "https://en.wikipedia.org/wiki/CSS"
         },
         {
-            "name": "JavaScript",
-            "logo": "/skills/Web/JavaScript.svg",
-            "link": "https://en.wikipedia.org/wiki/JavaScript"
+          "name": "JavaScript",
+          "logo": "/skills/Web/JavaScript.svg",
+          "link": "https://en.wikipedia.org/wiki/JavaScript"
         },
         {
           "name": "React",
           "logo": "/skills/Web/React.svg",
-          "link": "https://fr.react.dev/"
+          "link": "https://react.dev/"
         },
         {
           "name": "NextJS",
@@ -320,14 +386,24 @@
           "link": "https://www.postgresql.org/"
         },
         {
-            "name": "SQL",
-            "logo": "/skills/Web/Sql.svg",
-            "link": "https://sql.sh"
+          "name": "SQL",
+          "logo": "/skills/Web/Sql.svg",
+          "link": "https://sql.sh"
         },
         {
-            "name": "Git",
-            "logo": "/skills/Software/Git.svg",
-            "link": "https://git-scm.com/"
+          "name": "Git",
+          "logo": "/skills/Software/Git.svg",
+          "link": "https://git-scm.com/"
+        },
+        {
+          "name": "Anchor",
+          "logo": "/skills/Web/Anchor.svg",
+          "link": "https://www.anchor-lang.com/"
+        },
+        {
+          "name": "Stripe",
+          "logo": "/skills/Web/Stripe.svg",
+          "link": "https://stripe.com/"
         }
       ]
     }
