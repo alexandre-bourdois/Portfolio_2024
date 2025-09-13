@@ -407,5 +407,49 @@
         }
       ]
     }
+  },
+  "cookies": {
+    "title": "Cookie Management",
+    "description": "My portfolio uses cookies to improve your browsing experience and analyze site usage. You can choose which cookies to accept.",
+    "acceptAll": "Accept All",
+    "acceptNecessary": "Necessary Only",
+    "learnMore": "Learn More",
+    "necessary": {
+      "title": "Necessary Cookies",
+      "description": "These cookies are essential for the site to function and cannot be disabled. They maintain your browsing session, language preferences and ensure site security."
+    },
+    "analytics": {
+      "title": "Analytics Cookies",
+      "description": "These cookies help me understand how you use my portfolio. They collect anonymous information about pages visited and time spent on the site."
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated",
+    "date": "September 2025",
+    "introduction": {
+      "title": "Introduction",
+      "content": "This page explains how my portfolio uses cookies to improve your browsing experience. Your privacy is important to me.",
+      "contact": "If you have any questions, please don't hesitate to contact me."
+    },
+    "cookies": {
+      "title": "Cookie Usage",
+      "description": "My portfolio uses cookies to improve your browsing experience and analyze site usage.",
+      "necessary": {
+        "title": "Necessary Cookies",
+        "description": "These cookies are essential for the site to function and cannot be disabled. They maintain your browsing session, language preferences and ensure site security."
+      },
+      "analytics": {
+        "title": "Analytics Cookies",
+        "description": "These cookies help me understand how you use my portfolio. They collect anonymous information about pages visited and time spent on the site.",
+        "details": "I use Google Analytics to analyze site usage. The data collected includes: pages visited, session duration, traffic source, and technical information (browser, operating system). All this data is anonymized and does not allow personal identification."
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "For any questions about this privacy policy, contact me.",
+      "button": "Contact Me",
+      "home": "Back to Home"
+    }
   }
 }

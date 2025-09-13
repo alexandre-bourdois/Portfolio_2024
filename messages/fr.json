@@ -413,5 +413,49 @@
         }
       ]
     }
+  },
+  "cookies": {
+    "title": "Gestion des cookies",
+    "description": "Mon portfolio utilise des cookies pour améliorer votre expérience de navigation et analyser l'utilisation du site. Vous pouvez choisir quels cookies accepter.",
+    "acceptAll": "Tout accepter",
+    "acceptNecessary": "Nécessaires uniquement",
+    "learnMore": "En savoir plus",
+    "necessary": {
+      "title": "Cookies Nécessaires",
+      "description": "Ces cookies sont essentiels au fonctionnement du site et ne peuvent pas être désactivés. Ils maintiennent votre session de navigation, vos préférences de langue et assurent la sécurité du site."
+    },
+    "analytics": {
+      "title": "Cookies Analytiques",
+      "description": "Ces cookies m'aident à comprendre comment vous utilisez mon portfolio. Ils collectent des informations anonymes sur les pages visitées et le temps passé sur le site."
+    }
+  },
+  "privacy": {
+    "title": "Politique de Confidentialité",
+    "lastUpdated": "Dernière mise à jour",
+    "date": "Septembre 2025",
+    "introduction": {
+      "title": "Introduction",
+      "content": "Cette page explique comment mon portfolio utilise les cookies pour améliorer votre expérience de navigation. Votre vie privée est importante pour moi.",
+      "contact": "Si vous avez des questions, n'hésitez pas à me contacter."
+    },
+    "cookies": {
+      "title": "Utilisation des Cookies",
+      "description": "Mon portfolio utilise des cookies pour améliorer votre expérience de navigation et analyser l'utilisation du site.",
+      "necessary": {
+        "title": "Cookies Nécessaires",
+        "description": "Ces cookies sont essentiels au fonctionnement du site et ne peuvent pas être désactivés. Ils maintiennent votre session de navigation, vos préférences de langue et assurent la sécurité du site."
+      },
+      "analytics": {
+        "title": "Cookies Analytiques",
+        "description": "Ces cookies m'aident à comprendre comment vous utilisez mon portfolio. Ils collectent des informations anonymes sur les pages visitées et le temps passé sur le site.",
+        "details": "J'utilise Google Analytics pour analyser l'utilisation du site. Les données collectées incluent : pages visitées, durée de session, source de trafic, et informations techniques (navigateur, système d'exploitation). Toutes ces données sont anonymisées et ne permettent pas de vous identifier personnellement."
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Pour toute question concernant cette politique de confidentialité, contactez-moi.",
+      "button": "Me Contacter",
+      "home": "Retour à l'Accueil"
+    }
   }
 }

@@ -1,4 +1,6 @@
 import { routing } from "@/app/i18n/routing";
+import GoogleAnalytics from "@/components/analytics/GoogleAnalytics";
+import CookieConsent from "@/components/cookies/CookieConsent";
 import Header from "@/components/header/header";
 import PageTransition from "@/components/transition/PageTransition";
 import StairTransition from "@/components/transition/StairTransition";
@@ -10,7 +12,6 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import localFont from "next/font/local";
 import { notFound } from "next/navigation";
-import Script from "next/script";
 import "../globals.css";
 
 export const metadata: Metadata = {
@@ -43,9 +44,7 @@ export default async function RootLayout({
     <html lang={locale}>
       <head>
         {/* Google Tag Manager */}
-        <Script
-          id="gtm-script"
-          strategy="afterInteractive"
+        <script
           dangerouslySetInnerHTML={{
             __html: `
               (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -57,13 +56,11 @@ export default async function RootLayout({
           }}
         />
         {/* Google Analytics (gtag.js) */}
-        <Script
-          strategy="afterInteractive"
+        <script
+          async
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}`}
         />
-        <Script
-          id="google-analytics"
-          strategy="afterInteractive"
+        <script
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
@@ -91,6 +88,8 @@ export default async function RootLayout({
             <div className="px-10">{children}</div>
           </PageTransition>
           <Toaster />
+          <CookieConsent />
+          <GoogleAnalytics />
           <Analytics />
           <SpeedInsights />
         </NextIntlClientProvider>
