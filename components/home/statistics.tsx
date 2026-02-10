@@ -59,9 +59,9 @@ const Statistics = () => {
         <CountUp
           duration={7}
           className="text-4xl lg:text-6xl font-extrabold text-white"
-          end={444}
+          end={1685}
         />
-        <p className="leading-snug text-sm">{t("Commits2024")}</p>
+        <p className="leading-snug text-sm">{t("Commits2025")}</p>
       </div>
       <div className="flex flex-1 gap-2 md:gap-4 flex-col md:flex-row items-center justify-center lg:justify-start">
         <CountUp
