@@ -16,7 +16,7 @@ import {
 import { useLocale } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 
 const iconMap: Record<string, any> = {
   experience: Briefcase,
@@ -28,6 +28,17 @@ const iconMap: Record<string, any> = {
 const ExperiencesPage = () => {
   const locale = useLocale(); // Get the current locale
   const [resumeContent, setResumeContent] = useState<any>(null); // State to hold localized content
+  const startDate = new Date("2021-09-13");
+
+  const experienceYears = useMemo(() => {
+    const now = new Date();
+    const years = now.getFullYear() - startDate.getFullYear();
+    const isBeforeAnniversary =
+      now.getMonth() < startDate.getMonth() ||
+      (now.getMonth() === startDate.getMonth() && now.getDate() < startDate.getDate());
+
+    return isBeforeAnniversary ? years - 1 : years;
+  }, []);
 
   useEffect(() => {
     // Dynamically import the JSON file based on the locale
@@ -306,7 +317,7 @@ const ExperiencesPage = () => {
                   className="border rounded-lg border-lightSky p-6"
                 >
                   <p className="text-white mb-6 text-lg">
-                    {resumeContent.about.bio}
+                    {resumeContent.about.bio.replace("3", experienceYears)}
                   </p>
                   <div className="space-y-4">
                     <div>
